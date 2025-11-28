@@ -110,21 +110,27 @@ python -m venv venv
 ```
 
 ## Step 1: Activate venv
+```bash
 source venv/Scripts/activate
+```
 
-## Step 1: Install Dependencies
+## Step 2: Install Dependencies
+```bash
 pip install --upgrade pip
 pip install -r requirements.txt
+```
 
-### Step 2: Run Model Training
+## Step 3: Run Model Training
+```bash
 python src/controller.py
 python src/detection.py
 python src/main.py
 python src/timer.py
-
+```
 ### Step 4: Run Dashboard
+```bash
 streamlit run src/dashboard.py
-
+```
 ##  Example Prediction Code
 from src.model import load_model
 from src.preprocess import preprocess_input
