@@ -109,25 +109,25 @@ Shows live feed, vehicle count, predictions, Google Maps traffic, signal timers.
 python -m venv venv
 ```
 
-## Step 1: Activate venv
+## Step 2: Activate venv
 ```bash
 source venv/Scripts/activate
 ```
 
-## Step 2: Install Dependencies
+## Step 3: Install Dependencies
 ```bash
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-## Step 3: Run Model Training
+## Step 4: Run Model Training
 ```bash
 python src/controller.py
 python src/detection.py
 python src/main.py
 python src/timer.py
 ```
-### Step 4: Run Dashboard
+### Step 5: Run Dashboard
 ```bash
 streamlit run src/dashboard.py
 ```
