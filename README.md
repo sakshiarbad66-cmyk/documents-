@@ -105,7 +105,9 @@ Shows live feed, vehicle count, predictions, Google Maps traffic, signal timers.
 
 ## How to Run the Project
 ## Step 1: Create env
+```bash
 python -m venv venv
+```
 
 ## Step 1: Activate venv
 source venv/Scripts/activate
