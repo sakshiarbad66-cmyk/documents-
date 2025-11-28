@@ -44,7 +44,7 @@ Shows:
 - AWS/GCP cloud storage
 - Kafka/Spark for large-scale traffic data (optional)
 
-## **Project Structure (Corrected & Clean)**
+## **Project Structure**
 ```text
 Smart-Traffic-Congestion-Prediction/
 │
