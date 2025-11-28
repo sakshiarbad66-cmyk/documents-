@@ -46,7 +46,6 @@ Shows:
 
 ## **Project Structure (Corrected & Clean)**
 
-```text
 Smart-Traffic-Congestion-Prediction/
 │
 ├── data/
@@ -70,9 +69,9 @@ Smart-Traffic-Congestion-Prediction/
 ├── requirements.txt
 ├── yolov8n.pt
 └── yolov8s.pt
-'''
 
-## Technologies Used
+
+## **Technologies Used**
 - AI/ML Algorithms - Random Forest, XGBoost,opencv-python
 - Libraries - ultralytics, numpy, pandas, streamlit, matplotlib
 - Language - Python
