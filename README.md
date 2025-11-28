@@ -44,21 +44,26 @@ Shows:
 - AWS/GCP cloud storage
 - Kafka/Spark for large-scale traffic data (optional)
 
-##  Project Structure
+## **Project Structure (Corrected & Clean)**
 
-Smart-Traffic-Congestion-Prediction
+```text
+Smart-Traffic-Congestion-Prediction/
+│
 ├── data/
-├── model 
+│
+├── model/
+│
 ├── src/
-├── src/__pycache__/
 │   ├── controller.py
 │   ├── dashboard.py
 │   ├── detection.py
 │   ├── main.py
 │   ├── timer.py
 │   ├── static/
-│   
+│   └── __pycache__/
+│
 ├── traffic_env/
+│
 ├── venv/
 │
 ├── README.md
