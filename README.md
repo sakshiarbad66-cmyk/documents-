@@ -70,7 +70,7 @@ Smart-Traffic-Congestion-Prediction/
 ├── requirements.txt
 ├── yolov8n.pt
 └── yolov8s.pt
-
+'''
 
 ## Technologies Used
 - AI/ML Algorithms - Random Forest, XGBoost,opencv-python
